@@ -7,8 +7,8 @@ const NavigationLinks = () => {
 
     return (
         <ul className={classes.navLinks}>
-          <li><NavLink to="/about" className={({ isActive }) => clsx({ [classes.navLinkActive]: isActive })}>About me</NavLink></li>
-          <li><NavLink to="/contact" className={({ isActive }) => clsx({ [classes.navLinkActive]: isActive })}>Get in touch</NavLink></li>
+          <li><NavLink to="/propos" className={({ isActive }) => clsx({ [classes.navLinkActive]: isActive })}>A propos</NavLink></li>
+          {/* <li><NavLink to="/contact" className={({ isActive }) => clsx({ [classes.navLinkActive]: isActive })}>Get in touch</NavLink></li> */}
         </ul>
     );
 };

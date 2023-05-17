@@ -15,7 +15,7 @@ export const routes = [
     exact: true,
   },
   {
-    path: "/about",
+    path: "/propos",
     component: <AboutPage />,
     exact: true,
   },
