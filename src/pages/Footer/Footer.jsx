@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
  
-    <div className={clsx(globalClasses.container, classes.navContainer)}>
+    <div className={clsx(globalClasses.container, classes.footerContainer)}>
     <div className={classes.footerInfo}>
       <div>
         <h3>Dites bonjour</h3>
