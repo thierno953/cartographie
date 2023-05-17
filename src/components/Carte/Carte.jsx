@@ -96,7 +96,7 @@ const Carte = () => {
                   {selected.date_sortie}
                 </p>
                 <p>
-                  <span className="textstrong">Nombre d'occupation: </span>
+                  <span className="textstrong">Nombre d'occupants : </span>
                   {selected.nombre}
                 </p>
               </li>
