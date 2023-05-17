@@ -11,6 +11,7 @@ export const tempCartePosts = [
     date_dentree: "8 septembre 2013",
     date_sortie: "26 septembre 2013",
     nombre: "400 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const tempCartePosts = [
     date_dentree: "4 octobre 2013",
     date_sortie: "5 octobre 2013",
     nombre: "100 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export const tempCartePosts = [
     date_dentree: "29 octobre 2013",
     date_sortie: "16 novembre 2013",
     nombre: "100 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 4,
@@ -51,6 +54,7 @@ export const tempCartePosts = [
     date_dentree: "Novembre 2013",
     date_sortie: "Avril 2014",
     nombre: "Jusqu'à 150",
+    info: "Plus d'infos",
   },
   {
     id: 5,
@@ -64,6 +68,7 @@ export const tempCartePosts = [
     date_dentree: "Octobre 2015",
     date_sortie: "Octobre 2016",
     nombre: "200-250 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 6,
@@ -77,6 +82,7 @@ export const tempCartePosts = [
     date_dentree: "Octobre 2016",
     date_sortie: "Octobre 2016",
     nombre: "200 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 7,
@@ -85,6 +91,7 @@ export const tempCartePosts = [
     title: "Place du nouveau marché aux grains 22, 1000 bruxelles",
     occupant: "La maison des migrants",
     nombre: "Environ 50 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 8,
@@ -99,52 +106,61 @@ export const tempCartePosts = [
     date_dentree: "2017",
     date_sortie: "Décembre 2020",
     nombre: "Jusqu'à 50 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 9,
     lat: 50.86135,
     lng: 4.336025,
     title: "Boulevard leopold II 184C, 1080 molenbeek",
+    info: "Plus d'infos",
   },
   {
     id: 10,
     lat: 50.8466,
     lng: 4.3528,
     title: "Boulervard auguste reyers 137, 1030 schaerbeek",
+    info: "Plus d'infos",
   },
   {
     id: 11,
     lat: 50.852662,
     lng: 4.369431,
     title: "Place du samedi 11, 1000 bruxelles",
+    info: "Plus d'infos",
   },
   {
     id: 12,
     lat: 50.809159,
     lng: 4.320821,
     title: "Rue Victor rousseau 108, 1190 forest",
+    info: "Plus d'infos",
   },
   {
     id: 13,
     lat: 50.85531,
     lng: 4.31761,
     title: "Rue vanderboogaerden 108, 1080 molenbeek",
+    info: "Plus d'infos",
   },
   {
     id: 14,
     lat: 50.822841,
     lng: 4.384563,
     title: "Rue fritz toussaint 47, 1050 ixelles",
+    info: "Plus d'infos",
   },
   {
     id: 15,
     title: "Rue l'Olivier 40",
+    info: "Plus d'infos",
   },
   {
     id: 16,
     lat: 50.852662,
     lng: 4.369431,
     title: "Place quetelet 2, 1210 saint-josse-ten-noode",
+    info: "Plus d'infos",
   },
   {
     id: 17,
@@ -152,6 +168,7 @@ export const tempCartePosts = [
     lng: 4.368739,
     title: "Rue saint-georges, 1050 ixelles",
     occupant: "Bateau",
+    info: "Plus d'infos",
   },
   {
     id: 18,
@@ -165,6 +182,7 @@ export const tempCartePosts = [
     date_dentree: "28 septembre 2013",
     date_sortie: "30 septembre 2013",
     nombre: "100 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 19,
@@ -177,6 +195,7 @@ export const tempCartePosts = [
     occupant: "L'hospitalière",
     date_dentree: "18 décembre 2020",
     nombre: "Entre 100 et 200 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 20,
@@ -189,6 +208,7 @@ export const tempCartePosts = [
     date_dentree: "3 avril 2021",
     date_sortie: "8 mai 2022",
     nombre: "50 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 21,
@@ -200,6 +220,7 @@ export const tempCartePosts = [
     occupant: "Philomène",
     date_dentree: "2017",
     nombre: "5-10 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 22,
@@ -213,6 +234,7 @@ export const tempCartePosts = [
     date_dentree: "19 Août 2021",
     date_sortie: "Avril 2022",
     nombre: "150-200 personnes",
+    info: "Plus d'infos",
   },
   {
     id: 23,
@@ -224,5 +246,6 @@ export const tempCartePosts = [
     occupant: "VSP amazones louise II defacqz",
     date_dentree: "28 mars 2021",
     nombre: "Environ 80 personnes",
+    info: "Plus d'infos",
   },
 ];

@@ -99,6 +99,9 @@ const Carte = () => {
                   <span className="textstrong">Nombre d'occupants : </span>
                   {selected.nombre}
                 </p>
+                <p>
+                  <Link to="/">{selected.info}</Link>
+                </p>
               </li>
             </ul>
           </InfoWindow>
