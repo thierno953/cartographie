@@ -7,6 +7,7 @@ import {
 } from "@react-google-maps/api";
 import { tempCartePosts } from "../../helpers/tempCartePosts";
 import "./Carte.css";
+import { Link } from "react-router-dom";
 
 const center = { lat: 50.8503396, lng: 4.3517103 };
 

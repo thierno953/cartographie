@@ -2,25 +2,35 @@ import { createUseStyles } from "react-jss";
 
 export const useStyles = createUseStyles({
   aboutContainer: {
-    maxWidth: 800,
-    margin: "auto",
-    marginTop: 10,
-    marginBottom: 10,
-    "@media all and (min-width: 960px)": {
-      marginTop: 40,
-      marginBottom: 40,
-    },
+    marginTop: "4vh",
+    marginBottom: "4vh",
   },
   aboutMeContainer: {
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "column-reverse",
+    "@media all and (min-width: 960px)": {
+      flexDirection: "row",
+      justifyContent: "space-between",
+    },
   },
   aboutMeTextWrapper: {
     "& p": {
       fontSize: 16,
     },
     "@media all and (min-width: 960px)": {
-      paddingRight: 120,
+      paddingRight: 20,
+    },
+  },
+  aboutMeImage: {
+    width: "100%",
+    objectFit: "cover",
+    margin: "0 auto 20px",
+    "@media all and (min-width: 960px)": {
+      width: "100%",
+      maxWidth: "100%",
+      height: "50vh",
+      objectFit: "cover",
+      margin: "initial",
     },
   },
 });

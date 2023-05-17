@@ -1,5 +1,7 @@
 import { useStyles } from "./AboutPage.styles";
 import { useGlobalStyles } from "../../constants";
+import Cartographie from "../../assets/images/carte-entiere(avecPOINTS)-5.jpg";
+import SayHelloSection from "../../components/SayHelloSection/SayHelloSection";
 
 const AboutPage = () => {
   const classes = useStyles();
@@ -76,8 +78,14 @@ const AboutPage = () => {
               Balad.
             </p>
           </div>
+          <img
+            src={Cartographie}
+            alt="Cartographie"
+            className={classes.aboutMeImage}
+          />
         </div>
       </div>
+      <SayHelloSection />
     </main>
   );
 };

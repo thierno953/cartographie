@@ -6,12 +6,15 @@ export const useStyles = createUseStyles({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    flexDirection: "column",
     marginTop: "4vh",
     marginBottom: "4vh",
   },
   welcomeText: {
-    paddingRight: 40,
     lineHeight: 1.5,
+    maxWidth: 600,
+    margin: "auto",
+    textAlign: "center",
   },
   welcomeImage: {
     display: "block",

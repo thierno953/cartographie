@@ -1,5 +1,5 @@
-import BlogPostsSection from "../../components/BlogPostsSection/BlogPostsSection";
 import Carte from "../../components/Carte/Carte";
+import SayHelloSection from "../../components/SayHelloSection/SayHelloSection";
 import WelcomeSection from "../../components/WelcomeSection/WelcomeSection";
 import { useGlobalStyles } from "../../constants";
 
@@ -10,7 +10,7 @@ const HomePage = () => {
     <main className={globalClasses.container}>
       <WelcomeSection />
       <Carte />
-      <BlogPostsSection />
+      <SayHelloSection />
     </main>
   );
 };
