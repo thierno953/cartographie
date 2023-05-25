@@ -321,16 +321,16 @@ export const mdmBailli = {
       img: MdmBailli_1,
     },
     {
-      img: MdmBailli_2,
+      img: MdmBailli_3,
     },
     {
-      img: MdmBailli_3,
+      img: MdmBailli_5,
     },
     {
       img: MdmBailli_4,
     },
     {
-      img: MdmBailli_5,
+      img: MdmBailli_2,
     },
     {
       img: MdmBailli_6,
@@ -442,10 +442,10 @@ export const vspDim = {
       img: VspDim_1,
     },
     {
-      img: VspDim_2,
+      img: VspDim_3,
     },
     {
-      img: VspDim_3,
+      img: VspDim_2,
     },
     {
       img: VspDim_4,
@@ -459,17 +459,18 @@ export const vspHotel = {
       img: VspHotel_1,
     },
     {
-      img: VspHotel_2,
+      img: VspHotel_4,
     },
     {
       img: VspHotel_3,
     },
     {
-      img: VspHotel_4,
+      img: VspHotel_2,
     },
     {
       img: VspHotel_5,
     },
+   
   ],
 };
 

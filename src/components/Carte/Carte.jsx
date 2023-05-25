@@ -8,6 +8,7 @@ import {
 import { tempCartePosts } from "../../helpers/tempCartePosts";
 import "./Carte.css";
 import { Link } from "react-router-dom";
+import { AiOutlineEnter } from "react-icons/ai";
 
 const center = { lat: 50.8503396, lng: 4.3517103 };
 
@@ -99,8 +100,9 @@ const Carte = () => {
                   <span className="textstrong">Nombre d'occupants : </span>
                   {selected.nombre}
                 </p>
-                <p>
+                <p className="info">
                   <Link to="/">{selected.info}</Link>
+                  <AiOutlineEnter />
                 </p>
               </li>
             </ul>

@@ -11,6 +11,7 @@ export const useStyles = createUseStyles({
     paddingTop: DEFAULT_PADDING,
     paddingBottom: DEFAULT_PADDING,
     background: colorGray,
+    borderRadius: DEFAULT_RADIUS
   },
   footerInfo: {
     display: "flex",

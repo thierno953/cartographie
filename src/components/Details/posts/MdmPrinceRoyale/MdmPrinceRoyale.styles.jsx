@@ -2,30 +2,48 @@ import { createUseStyles } from "react-jss";
 import { DEFAULT_RADIUS } from "../../../../constants";
 
 export const useStyles = createUseStyles({
-  AfghansBeguinageContainer: {
-    maxWidth: 800,
-    margin: "auto",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    flexDirection: "column",
-    marginTop: 10,
-    marginBottom: 10,
+  gallery: {
+    WebkitColumnCount: 1,
+    MozColumnCount: 1,
+    columnCount: 1,
     "@media all and (min-width: 960px)": {
+      WebkitColumnCount: 3,
+      MozColumnCount: 3,
+      columnCount: 3,
+      WebkitColumnWidth: "33%",
+      MozColumnWidth: "33%",
+      columnWidth: "33%",
+      padding: "0 12px",
       marginTop: 40,
-      marginBottom: 40,
+      marginBottom: 40
+    },
+
+    "@media all and (min-width: 460px)": {
+      WebkitColumnCount: 3,
+      MozColumnCount: 3,
+      columnCount: 3,
+      WebkitColumnWidth: "33%",
+      MozColumnWidth: "33%",
+      columnWidth: "33%",
+      padding: "0 12px",
+      marginTop: 40,
+      marginBottom: 40
     },
   },
 
-  AfghanBeguinageImage: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    objectFit: "cover",
-    maxWidth: "100%",
-    width: 650,
-    height: "auto",
-    padding: "10px 0px",
-    borderRadius: DEFAULT_RADIUS,
+  pics: {
+    WebkitTransform: "all 350ms ease",
+    transform: "all 350ms ease",
+    cursor: "pointer",
+    marginBottom: 12,
+    "& hover": {
+      fillOpacity: ".8px"
+    },
+    "& img": {
+      width: "100%",
+      maxWidth: "100%",
+      objectFit: "cover",
+      borderRadius: DEFAULT_RADIUS
+    }
   },
 });
