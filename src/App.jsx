@@ -17,6 +17,7 @@ import {
   mdmBailli,
   mdmPrinceRoyale,
   mdmSaintMarie,
+  mdmSteCat,
   philomene,
   pmJanBloc,
   vspAma,
@@ -52,6 +53,7 @@ import VspRous from "./components/Details/posts/VspRous/VspRous";
 import VspTous from "./components/Details/posts/VspTous/VspTous";
 import ZoneNeutre from "./components/Details/posts/ZoneNeutre/ZoneNeutre";
 import Footer from "./pages/Footer/Footer";
+import MdmSteCat from "./components/Details/posts/MdmSteCat/MdmSteCat";
 
 
 function App() {
@@ -64,21 +66,21 @@ function App() {
           {routes.map((route, index) => (
             <Route key={index} path={route.path} element={route.component} />
           ))}
-          <Route
-            path="/posts/afghansBeguinage"
-            element={<AfghansBeguinage afghansBeguinage={afghansBeguinage} />}
-          />
-          <Route
+            <Route
             path="/posts/afghansPost"
             element={<AfghanPost afghansPost={afghansPost} />}
           />
-          <Route
+            <Route
+            path="/posts/afghansTrone"
+            element={<AfghansTrone afghansTrone={afghansTrone} />}
+          />
+           <Route
             path="/posts/afghansCharleroi"
             element={<AfghansCharleroi afghansCharleroi={afghansCharleroi} />}
           />
           <Route
-            path="/posts/afghansTrone"
-            element={<AfghansTrone afghansTrone={afghansTrone} />}
+            path="/posts/afghansBeguinage"
+            element={<AfghansBeguinage afghansBeguinage={afghansBeguinage} />}
           />
           <Route
             path="/posts/afgSteCroix"
@@ -141,10 +143,10 @@ function App() {
             path="/posts/pmJanBloc"
             element={<PmJanBloc pmJanBloc={pmJanBloc} />}
           />
-          {/* <Route
+           <Route
             path="/posts/mdmSteCat"
             element={<MdmSteCat mdmSteCat={mdmSteCat} />}
-          /> */}
+          /> 
           {/* <Route
             path="/posts/groupeBateau"
             element={<GroupeBateau groupeBateau={groupeBateau} />}

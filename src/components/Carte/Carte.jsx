@@ -100,10 +100,10 @@ const Carte = () => {
                   <span className="textstrong">Nombre d'occupants : </span>
                   {selected.nombre}
                 </p>
-                <p className="info">
-                  <Link to="/">{selected.info}</Link>
+                <button className="info">
+                  <Link to={selected.info}>Plus d'infos</Link>
                   <AiOutlineEnter />
-                </p>
+                </button>
               </li>
             </ul>
           </InfoWindow>
